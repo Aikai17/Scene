@@ -11,12 +11,6 @@ View3D {
         backgroundMode: SceneEnvironment.Color
     }
 
-    Text{
-        text: ""+sceneNode.position
-        color:"black"
-        font.pixelSize: 14
-    }
-
     camera: cameraNode
     Node{
         id: originNode
